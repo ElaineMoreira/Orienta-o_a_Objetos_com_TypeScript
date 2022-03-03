@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/ElaineMoreira/Orienta-o_a_Objetos_com_TypeScript/issues"
   },
-  "homepage": "https://github.com/ElaineMoreira/Orienta-o_a_Objetos_com_TypeScript#readme"
+  "homepage": "https://github.com/ElaineMoreira/Orienta-o_a_Objetos_com_TypeScript#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "ts-node": "^10.6.0",
+    "typescript": "^4.6.2"
+  }
 }
