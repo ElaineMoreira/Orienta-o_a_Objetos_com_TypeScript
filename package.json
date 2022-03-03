@@ -1,0 +1,20 @@
+{
+  "name": "orienta-o_a_objetos_com_typescript",
+  "version": "1.0.0",
+  "description": "- Repositorio com a finalidade de estudos em POO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElaineMoreira/Orienta-o_a_Objetos_com_TypeScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElaineMoreira/Orienta-o_a_Objetos_com_TypeScript/issues"
+  },
+  "homepage": "https://github.com/ElaineMoreira/Orienta-o_a_Objetos_com_TypeScript#readme"
+}
