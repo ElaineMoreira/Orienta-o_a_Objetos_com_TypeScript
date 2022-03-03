@@ -20,4 +20,11 @@ export class ContaBancaria {
       this.saldo += valor;
     }
   }
+
+  sacar(valor: number): void {
+    if (valor >= 0 && this.saldo >= valor) {
+      // decrementando valor
+      this.saldo -= valor;
+    }
+  }
 }
