@@ -22,6 +22,8 @@ conta1.sacar(30);
 saldoAtual = conta1.consultar();
 console.log(`saldo atual depois do saque: ${saldoAtual}`);
 // mais um saque
-conta1.sacar(20);
+conta1.sacar(30);
 saldoAtual = conta1.consultar();
 console.log(`segundo saque: ${saldoAtual}`);
+
+console.log(`total da conta: ${saldoAtual}`);

@@ -14,17 +14,21 @@ export class ContaBancaria {
     return this.saldo;
   }
 
-  depositar(valor: number): void {
+  depositar(valor: number): boolean {
     if (valor >= 0) {
       // incrementar o saldo
       this.saldo += valor;
+      return true;
     }
+    return false;
   }
 
-  sacar(valor: number): void {
+  sacar(valor: number): boolean {
     if (valor >= 0 && this.saldo >= valor) {
       // decrementando valor
       this.saldo -= valor;
+      return true;
     }
+    return false;
   }
 }
