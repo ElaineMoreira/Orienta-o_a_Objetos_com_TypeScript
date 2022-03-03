@@ -9,7 +9,15 @@ export class ContaBancaria {
     this.saldo = 0;
   }
   // colocar metodos acoes sacar, consultar e depositar
-  consultar() {
+  // coloquei o number para especificar
+  consultar(): number {
     return this.saldo;
+  }
+
+  depositar(valor: number): void {
+    if (valor >= 0) {
+      // incrementar o saldo
+      this.saldo += valor;
+    }
   }
 }
