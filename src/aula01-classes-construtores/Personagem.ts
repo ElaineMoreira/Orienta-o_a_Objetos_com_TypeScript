@@ -12,6 +12,7 @@ class Personagem {
   constructor(nome: string) {
     this.energia = 50;
     this.ataque = 50;
+    this.nome = nome;
   }
 }
 
@@ -30,7 +31,17 @@ console.log("personagem: >>", sansa);
    sansa.vida = 0;
 
  */
+/**saida
 
+  personagem :>> {
+   sansa.nome = "Sansa Stark";
+   sansa.ataque = 50;
+   sansa.defesa = 0;
+   sansa.energia = 80;
+   sansa.vida = 0;
+
+ */
+// a string ficou vazia porque o nome nao foi usado no meu construtor
 /**saida
  
   personagem :>> {
