@@ -8,16 +8,28 @@ class Personagem {
 
   /**cria constructor para especificar como os meu atributos serao inicializados*/
   /**define que todos os personagens criados inicializarão com valor de energia e ataque 50 */
-  constructor() {
+  /**o nome no paramentro do constructor diz que tem que me dar o nome */
+  constructor(nome: string) {
     this.energia = 50;
     this.ataque = 50;
   }
 }
 
 let sansa: Personagem;
-sansa = new Personagem();
-sansa.nome = "Sansa Stark";
+sansa = new Personagem('Sansa Stark');
+sansa.ataque = 80;
 console.log("personagem: >>", sansa);
+
+/**saida
+
+  personagem :>> {
+   sansa.nome = "";
+   sansa.ataque = 50;
+   sansa.defesa = 0;
+   sansa.energia = 80;
+   sansa.vida = 0;
+
+ */
 
 /**saida
  
