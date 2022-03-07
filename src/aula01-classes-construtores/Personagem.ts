@@ -47,4 +47,10 @@ console.log("personagem: >>", aria);
  */
 
 /**forma diferente de contruir um personagem, chamando pelo contrutor padrao*/
-
+let jonh: Personagem = new Personagem();
+jonh.nome = "Jonh Snow";
+jonh.ataque = 80;
+jonh.defesa = 70;
+jonh.energia = 90;
+jonh.vida = 40;
+console.log("personagem: >>", jonh);
